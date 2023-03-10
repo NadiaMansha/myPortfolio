@@ -1,0 +1,83 @@
+.nav-container{
+  width: 100vw;
+  position:fixed;
+  top: 0;
+}
+.nav-container ul{
+   display: flex;
+   height: 3.5em;
+}
+.footer{
+    background-color: #001529;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+   bottom: 0;
+    left: 0;
+
+}
+.space{
+  align-self: center;
+  color: white;
+}
+.space a{
+
+  color: white;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 100%;
+}
+.skills Button{
+  background-color: #001529;
+  color: white;
+  margin: 5px;
+}
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #001529;
+  width: 600px;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+  color: white;
+ 
+}
+.homepage{
+  background-color: #17324a;
+  height: 75vh;
+  color: white;
+}
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #001529;
+  color: white;
+  text-align: center;
+
+}
