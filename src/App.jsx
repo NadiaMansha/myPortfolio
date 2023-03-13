@@ -29,7 +29,7 @@ function App() {
      
       </div>
     
-   {/*    <div className="footer">
+     <div className="footer">
         <Typography.Title
           level={5}
           style={{ color: "white", textAlign: "center" }}
@@ -41,7 +41,7 @@ function App() {
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
         </Space>
-      </div> */}
+      </div>
     </div>
   );
 }
