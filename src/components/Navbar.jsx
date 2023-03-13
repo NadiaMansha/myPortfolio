@@ -10,7 +10,7 @@ import {
   ProjectOutlined,
   ProfileOutlined,
 } from "@ant-design/icons";
-import icon from "../images/cryptocurrency.png";
+
 
 export default function Navbar() {
   return (

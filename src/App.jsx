@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
 import {
   Navbar,
@@ -9,6 +9,7 @@ import {
 } from "./components";
 import "antd/dist/reset.css";
 import "./App.css";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   return (
@@ -18,16 +19,17 @@ function App() {
       </div>
       <div className="main">
         <Layout>
-          <Switch>
-            <Route exact path="/">
-              <Homepage></Homepage>
-            </Route>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-          </Switch>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectCard />} />
+        </Routes>
         </Layout>
+     
       </div>
-      <div className="footer">
+    
+   {/*    <div className="footer">
         <Typography.Title
           level={5}
           style={{ color: "white", textAlign: "center" }}
@@ -39,7 +41,7 @@ function App() {
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
         </Space>
-      </div>
+      </div> */}
     </div>
   );
 }

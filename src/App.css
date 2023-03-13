@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 .nav-container{
   width: 100vw;
   position:fixed;
@@ -25,18 +26,50 @@
 
   color: white;
 }
-
 .skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ margin-top: 2em;
+
+
+}
+.skills-container{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-top: 2em;
+
+  
+}
+.buttons{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  height: 100%;
+  flex-wrap: wrap;
 }
-.skills Button{
+.skills-container button{
+   padding: 1em 2.5em;
+  background-color: #17324a;
+  color: white;
+  border: 2px solid #001529;
+  margin: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+.skills-container button:hover{
   background-color: #001529;
   color: white;
-  margin: 5px;
+}
+.skills-container h1{
+  color: #001529;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 1em;
 }
 .project{
   display: flex;
@@ -44,13 +77,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.project-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid #001529;
-  width: 600px;
-}
+
 .home{
   display: flex;
   align-items: center;
@@ -65,13 +92,95 @@
   height: 75vh;
   color: white;
 }
-.skills{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+
+.project{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+
+
 }
-.footer{
+.project-container{
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   width: 30%;
+  border: 2px solid #001529;
+  height: 35em;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+
+ 
+}
+.project-container h1{
+  margin-top: 1em;
+  color: #001529;
+  font-size: 2em;
+  font-weight: bold;
+  
+}
+.project-container p{
+  margin-top: 1em;
+  color: #001529;
+  font-size: 1.5em;
+ 
+}
+.project-container button{
+  margin-top: 1em;
+  padding: 0.4em;
+  background-color: #17324a;
+  color: white;
+  border: 2px solid #001529;
+  margin: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.project-container a{
+  text-decoration: none;
+  color: white;
+}
+.project-container button:hover{
+  background-color: #001529;
+  color: white;
+}
+.project-container img{
+  width: 100%;
+  height: 100%;
+}
+.project-card{
+ 
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+  justify-content: center;
+ 
+ 
+  margin: 1em;
+  margin-top: 5em;
+}
+ .buttons button{
+  padding: 0.4em;
+  background-color: #17324a;
+  color: white;
+  border: 2px solid #001529;
+  margin: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons  button:hover{
+  background-color: #001529;
+  color: white;
+}
+.buttons a{
+  text-decoration: none;
+  color: white;
+}
+
+
+footer{
   position:relative;
   left: 0;
   bottom: 0;

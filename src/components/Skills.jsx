@@ -1,30 +1,34 @@
-import React from "react";
-import { Button } from "antd";
-import { Typography } from "antd";
+import React from 'react'
 
-export default function Skills() {
+const Skills = () => {
   return (
-    <div className="skills">
-      <div>
-        <Typography.Title>My Skills</Typography.Title>
-        <Typography.Text style={{ fontSize: "1.2em", textAlign: "center" }}>
-          {" "}
-          Here are my few technical skills:{" "}
-        </Typography.Text>{" "}
-        <br />
-        <Button>Java Script</Button>
-        <Button>HTML</Button>
-        <Button>CSS</Button>
-        <Button>Redux Toolkit</Button>
-        <Button>React.js</Button> <br />
-        <Button>React Native</Button>
-        <Button>Node.js</Button>
-        <Button>Git</Button>
-        <Button>Git Hub</Button>
-        <Button>Mongo Db</Button> <br />
-        <Button>ant design</Button>
-        <Button>React Native</Button>
+    <div className='skills'  > 
+    <div className="skills-container">
+      <h1>Skills</h1>
+      <h3>Here are my few technical skills</h3>
+     
+      <div className="buttons">
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>JavaScript</button>
+        <button>React</button>
+        <button>Node</button>
+        <button>Express</button>
+        <button>React Native</button>
+        <button>MySQL</button>
+        <button>MongoDb</button>
+        <button>Git</button>
+        <button>GitHub</button>
+      
+        <button>Netlify</button>
+        <button>VS Code</button>
+        <button>Postman</button>
+     
       </div>
+       </div>
+
     </div>
-  );
+  )
 }
+
+export default Skills
