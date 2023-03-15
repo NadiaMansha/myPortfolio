@@ -1,5 +1,6 @@
 import recipeImg from '../assets/recipe.png';
 import bookImg from '../assets/book.png';
+import objectImg from '../assets/obd.png';
 export default [
     {
         id: 1,
@@ -19,6 +20,15 @@ export default [
         demo: 'https://nadiamansha.github.io/AddressBook/',
         technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB']
     },
+    {
+        id: 3,
+        name:'Object Detection using Tensorflow.js',
+        description: 'A simple object detection app that uses Tensorflow.js to detect objects in images.',
+        image:objectImg,
+        github: 'https://github.com/NadiaMansha/ObjectDetection_in_Tensorflow.js',
+        demo: 'https://nadiamansha.github.io/ObjectDetection_in_Tensorflow.js/',
+        technologies: ['HTML', 'CSS', 'JavaScript','React.js' ,'Tensorflow.js']
+    }
     
 
 
