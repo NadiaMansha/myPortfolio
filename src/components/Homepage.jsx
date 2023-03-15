@@ -18,10 +18,12 @@ export default function Homepage() {
     <>
       <div className="homepage">
         <div className="home">
-          <Title level={1} style={{ color: "white" }}>
-            Welcome to my personal Portfolio
-          </Title>
-          <Typography.Paragraph type="h3" style={{ color: "white" }}>
+          <h1>
+            Welcome to my personal portfolio
+          </h1>
+          <Typography.Paragraph type="h3" style={{ color: "white" }}
+           className="home-p"
+          >
             Hi,My name is Nadia Mansha <br />I am a Full Stack Web Developer.
           </Typography.Paragraph>
           <div style={

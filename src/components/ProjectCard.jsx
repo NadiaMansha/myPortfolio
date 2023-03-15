@@ -70,6 +70,7 @@ console.log(project);
   {
     project?.image ?
     <Image
+    className="project-image"
       style={
         {
           alignSelf: "flex-end",
