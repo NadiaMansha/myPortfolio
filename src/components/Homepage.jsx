@@ -78,7 +78,7 @@ export default function Homepage() {
       <Skills />
       <Projects />
       <About />
-      <h1>Contact me</h1>
+  
     </>
   );
 }
