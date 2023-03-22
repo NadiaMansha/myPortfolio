@@ -1,10 +1,12 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link, Route } from "react-router-dom";
 import { Typography, Card, Row, Col, Statistic, Button } from "antd";
 import Skills from "./Skills";
 const { Title } = Typography;
 import { GithubOutlined, InstagramFilled, LinkedinOutlined, MailOutlined, TwitterCircleFilled, TwitterOutlined } from "@ant-design/icons";
+import Projects from "./Projects";
+import About from "./About";
 
 export default function Homepage() {
   const linkStyle={
@@ -18,7 +20,13 @@ export default function Homepage() {
     <>
       <div className="homepage">
         <div className="home">
-          <h1>
+          <h1 
+          style={
+            {
+              fontSize:50
+            }
+          }
+          >
             Welcome to my personal portfolio
           </h1>
           <Typography.Paragraph type="h3" style={{ color: "white" }}
@@ -53,7 +61,7 @@ export default function Homepage() {
           >
             <LinkedinOutlined style={linkStyle} />
           </a>
-          <a href=""
+          <a href="https://twitter.com/NadiaMansha123s"
           target="_blank"
           >
             <TwitterCircleFilled style={linkStyle} />
@@ -68,6 +76,9 @@ export default function Homepage() {
         </div>
       </div>
       <Skills />
+      <Projects />
+      <About />
+      <h1>Contact me</h1>
     </>
   );
 }

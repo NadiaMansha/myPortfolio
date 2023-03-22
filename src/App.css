@@ -1,4 +1,11 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.App{
+  padding-bottom: 10vh;
+}
 .nav-container{
   width: 100vw;
   position:fixed;
@@ -8,16 +15,7 @@
    display: flex;
    height: 3.5em;
 }
-.footer{
-    background-color: #001529;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: fixed;
-   bottom: 0;
-    left: 0;
 
-}
 .space{
   align-self: center;
   color: white;
@@ -155,9 +153,6 @@
   flex-direction: row;
  align-items: center;
   justify-content: center;
- 
- 
-  margin: 1em;
   margin-top: 5em;
 }
  .buttons button{
@@ -181,18 +176,25 @@
 
 
 .footer{
-  position:fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: #001529;
-  color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+
+
 
 }
 @media screen and (max-width:500px){
+
   h1{
-    font-size: 25px;
+    font-size:1em;
   }
   .skills-container{
     margin-top: 5px;
@@ -212,7 +214,8 @@
     font-size: 15px;
   }  
   .project-card{
-    height: 100vh;
+  
+      width: 100%;
     align-items: flex-start;
     flex-direction: column;
   }
@@ -224,11 +227,18 @@
    .project-card .description p{
     font-size: 10px;
     font-weight: lighter;
+
   }
   .project-card  .project-image{
-    width: 400px;
+    width: 450px;
     height: 500px;
   }
   
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
 }
 

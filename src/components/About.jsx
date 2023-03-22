@@ -1,6 +1,14 @@
 import React from "react";
+import { MailOutlined, PhoneOutlined } from "@ant-design/icons";
 
 export default function About() {
+  const linkStyle={
+    color:"blue",
+    fontSize:"2em",
+    margin:"1em",
+    textDecoration:"none"
+    
+  }
   const profession="Full Stack Developer"
   return <div
   style={
@@ -11,9 +19,7 @@ export default function About() {
       alignItems: "center",
       justifyContent: "center",
       textAlign: "center",
-     backgroundColor: "white",
-
-
+       marginBottom:20,
   }
   }
   >
@@ -46,5 +52,16 @@ export default function About() {
        I am a self starter and a fast learner. <br />
       I am always looking for new challenges and opportunities to learn and grow.
     </p>
+    <div
+     className="contact">
+      <h1>Conatct me:</h1>
+      <a href="mailto:34932@gcslahore.edu.pk" target="_blank">
+        <MailOutlined style={linkStyle} />
+        </a>
+      	
+<a href="tel:+923020415956">
+        <PhoneOutlined style={linkStyle} />
+</a>
+       </div>
   </div>;
 }

@@ -15,14 +15,15 @@ const Skills = () => {
         <button>Node</button>
         <button>Express</button>
         <button>React Native</button>
-        <button>MySQL</button>
+        <button>Redux Toolit</button>
         <button>MongoDb</button>
         <button>Git</button>
         <button>GitHub</button>
       
-        <button>Netlify</button>
+        <button>Vercel</button>
         <button>VS Code</button>
         <button>Postman</button>
+        <button>Tailwind CSS</button>
      
       </div>
        </div>
