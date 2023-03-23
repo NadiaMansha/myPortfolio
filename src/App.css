@@ -5,6 +5,7 @@
 
 .App{
   padding-bottom: 10vh;
+ 
 }
 .nav-container{
   width: 100vw;
@@ -187,14 +188,24 @@
   height: 10vh;
   align-items: center;
   justify-content: center;
-
-
-
 }
-@media screen and (max-width:500px){
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+  background-color: antiquewhite;
+  width: 100%;
+}
+@media screen and (max-width:700px){
+   .App{
+    padding-bottom: 10vh;
+    width: 100%;
+   }
 
   h1{
-    font-size:1em;
+    font-size:0.9rem;
+    text-align: center;
   }
   .skills-container{
     margin-top: 5px;
@@ -235,12 +246,21 @@
   }
   
 }
-.contact{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5em;
-  background-color: antiquewhite;
-  width: 100%;
+@media screen  and (max-width: 400px){
+  .home h1{
+    font-size: 25px;
+  }
+  .homepage{
+    height: 100vh;
+  }
+  .homepage p{
+    font-size: 15px;
+  }
+  .homepage a{
+    font-size: 10px;
+  }
+  
 }
+
+
 
