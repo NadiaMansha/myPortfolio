@@ -21,7 +21,7 @@ export default function Homepage() {
       <div className="homepage">
         <div className="home">
           <h1 
-        
+       
           >
             Welcome to my personal portfolio
           </h1>
